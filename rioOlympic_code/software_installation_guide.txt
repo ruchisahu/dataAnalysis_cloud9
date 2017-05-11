@@ -1,0 +1,41 @@
+
+Phase-0 software installation
+
+
+Cloud 9 has a multiple supported version of python which might conflict with each other, so it's better to work with virtual environments,this allow you to work with as many instances of python you want and keep them isolated.
+
+For this project we are using python3.To create a python3 environment  follow these steps:
+
+
+(optional)To manage your code create and change to a new directory
+
+>>mkdir rio_data
+
+>>cd rio_data
+
+
+Setup virtualenv :
+
+1.>>sudo pip install virtualenv
+
+
+2.>>virtualenv my_py3 --python=/usr/bin/python3
+
+
+3.>>source my_py3/bin/activate # to activate the python 3 environment
+
+
+How to install libraries:
+
+
+For our project i am using pandas,numpy and matplotlib
+
+     4.    >>pip install pandas
+
+     5.    >>pip install numpy
+
+     6.    >>pip install matplotlib
+
+
+Note :To run your program type :
+>>python <filename>.py
